@@ -1,0 +1,95 @@
+body{
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+    /* margin: 5rem; */
+    background-color:antiquewhite;
+    
+}
+.nav-top-level{
+    gap: 3rem;
+    height: auto;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: antiquewhite;
+}
+.heading{
+    margin-bottom: 0%;
+    background-color: aqua;
+}
+.features{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+/* .parent{
+    height: auto;
+    width: 10rem;
+    background-color: brown;
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+}
+.aligned{
+    height: auto;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    border: black solid;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content:end
+}
+.inner{
+    height: auto;
+    width: auto;
+    background-color: aliceblue;
+    padding: 1rem;
+} */
+.lbody{
+    background-color: brown;
+    margin: 0;
+    padding: 2rem;
+}
+.header{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.for-college{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+.for-students{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+.learn-more{
+    background-color: blue;
+    margin: 1rem;
+    height: fit-content;
+    border-radius: 2%;
+    border: none;
+    font-weight: 700;
+    padding: 1rem;
+}
